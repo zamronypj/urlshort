@@ -1,7 +1,7 @@
 # urlshort
 
 <h2>What</h2>
-This is a PHP web application to shorten long URL based on Laravel framework.
+This is a PHP web application to shorten long URL.
 
 <h2>Features</h2>
 It has 2 features:
@@ -17,6 +17,6 @@ It has 2 features:
 <li><em>HTTP GET</em> on http://[a domain name/{short_url_code} will retrive short_url_code, validates it and then retrieve original URL and redirect to it.</li>
 </ul>
 <h2>Info</h2>
-Application UI use Bootstrap.
+Application is built on top of Laravel framework 5.2. Application UI use Bootstrap.
 
 That's it.
