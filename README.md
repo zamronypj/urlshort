@@ -11,10 +11,11 @@ It has 2 features:
 </ol>
 
 <h2>How</h2>
-HTTP GET on http://[a domain name]/ will display main page with form to add a short URL.
-HTTP POST on http://[a domain name]/ will handle adding short URL request, validate data and retrieve short URL. If no short URL found, then create new one and add it to database.
-HTTP GET on http://[a domain name/{short_url_code} will retrieve original URL and redirect to it.
-
+<ul>
+<li><em>HTTP GET</em> on http://[a domain name]/ will display main page with form to add a short URL.</li>
+<li><em>HTTP POST</em> on http://[a domain name]/ will handle adding short URL request, validate data and retrieve short URL. If no short URL found, then create new one and add it to database.</li>
+<li><em>HTTP GET</em> on http://[a domain name/{short_url_code} will retrive short_url_code, validates it and then retrieve original URL and redirect to it.</li>
+</ul>
 <h2>Info</h2>
 Application UI use Bootstrap.
 
