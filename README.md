@@ -14,8 +14,9 @@ It has 2 features:
 <ul>
 <li><em>HTTP GET</em> on http://[a domain name]/ will display main page with form to add a short URL.</li>
 <li><em>HTTP POST</em> on http://[a domain name]/ will handle adding short URL request, validate data and retrieve short URL. If no short URL found, then create new one and add it to database.</li>
-<li><em>HTTP GET</em> on http://[a domain name/{short_url_code} will retrive short_url_code, validates it and then retrieve original URL and redirect to it.</li>
+<li><em>HTTP GET</em> on http://[a domain name]/{short_url_code} will retrive short_url_code, validates it and then retrieve original URL and redirect to it.</li>
 </ul>
+
 <h2>Info</h2>
 Application is built on top of Laravel framework 5.2. Application UI use Bootstrap.
 
