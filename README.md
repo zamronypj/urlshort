@@ -20,3 +20,8 @@ It has 2 features:
 Application is built on top of Laravel framework 5.2. Application UI use Bootstrap.
 
 That's it.
+
+
+Zamrony P. Juhara
+zamronypj@yahoo.com
+@zpjuhara
