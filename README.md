@@ -1,7 +1,7 @@
 # urlshort
 
 <h2>What</h2>
-This is a PHP web application to shorten long URL.
+This is a PHP web application to shorten long URL. It is inspired  by web application such as <a href="http://bit.ly">http://bit.ly</a> or <a href="http://goo.gl">http://goo.gl</a>.
 
 <h2>Features</h2>
 It has 2 features:
