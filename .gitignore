@@ -1,3 +1,4 @@
 urlshort/vendor/
 urlshort/storage/
 urlshort/.env
+urlshort/bootstrap/cache/compiled.php
